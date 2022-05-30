@@ -5,7 +5,8 @@ HOURS=0
 
 while [ $HOURS -lt 13 ]
 do
-	echo "Hour:$HOURS"
+	echo "Hour: $HOURS"
+	HOURS=$(( HOURS + 1 ))
 	minutes=1
 	while [ $minutes -lt 60 ]
 	do
