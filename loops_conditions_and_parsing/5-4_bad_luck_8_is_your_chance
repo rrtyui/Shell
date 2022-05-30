@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+##Print while loop
+
+COUNTER=1
+
+while [ $COUNTER -lt 11 ]
+
+do
+	if [ $COUNTER = 4 ]
+	then 
+		echo "Bad Luck"
+	elif  [ $COUNTER = 8 ]
+	then
+		echo "Good Luck" 
+	else
+		echo "Best School" 
+	fi
+	COUNTER=$(( COUNTER + 1 ))
+
+done 
