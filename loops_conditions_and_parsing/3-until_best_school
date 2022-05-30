@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+##Print while loop
+
+COUNTER=10
+
+until [ $COUNTER -lt 1]
+
+do 
+	echo "Best School"
+
+	COUNTER-=1
+done
+ 
