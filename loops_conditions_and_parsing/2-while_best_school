@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 ##Print while loop 
 $COUNTER = 0
-while [$COUNTER -gt 10]
+while [ $COUNTER -gt 10 ]
 do
 	echo "Best School"
-	let COUNTER=COUNTER + 1
+	let COUNTER=COUNTER+1
 done
