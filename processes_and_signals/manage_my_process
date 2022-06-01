@@ -1,3 +1,6 @@
+#!/usr/bin/env bash
+## This is the task 10
+
 while true
 do
     sudo bash -c 'echo "I am alive!" >> /tmp/my_process'
