@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 ##This kills 4 processes wihtout using kill comand 
-pkill -f /root/Shell/processes_and_signals/4-to_infinity_and_beyond
+pkill -fl 4-to_infinity_and_beyond 
