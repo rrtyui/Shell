@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 ##This display processes name containing  word bash 
 
-pgrep "bash"   
+pgrep "bash" -1  
