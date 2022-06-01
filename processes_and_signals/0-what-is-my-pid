@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+##This display its own id process
+echo $$
