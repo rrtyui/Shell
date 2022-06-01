@@ -1,3 +1,6 @@
+#!/usr/bin/env bash
+##This is the task 9
+
 sudo touch /var/run/holbertonscript.pid
 sudo bash -c 'echo $$ > /var/run/myscript.pid'
 while true
